@@ -138,7 +138,7 @@ phina.define('Bullet', {
         this.SPEED = 5;
     },
 
-    // 弾を画面上から消して無効にするイベントリスナ(なにかに当たった)
+    // 弾を画面上から消して無効にするイベントリスナ(何かに当たった)
     onhit: function () {
         this.remove();
         this.isInvalid = true;
